@@ -49,10 +49,16 @@ public class TrianguloRectangulo {
 		System.out.println(b);
 	}
 	
-	public String getValores() {
-		System.out.println(this.a)
-		System.out.println(this.b)
+	public int getValores() {
+		System.out.println(this.a);
+		System.out.println(this.b);
 		return this.a;
+	}
+	
+	public String toString() {
+		String res = "";
+		res+= "Los lados del triangulo son:\n"+"a: "+this.a+"\n b= "+this.b+"\n c: "+this.c; 
+		return res;
 	}
 
 }
