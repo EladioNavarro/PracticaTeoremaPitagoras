@@ -56,6 +56,7 @@ public class TrianguloRectangulo {
 		return this.a;
 	}
 	
+	@Override
 	public String toString() {
 		String res = "";
 		res+= "Los lados del triangulo son:\n"+"a: "+this.a+"\n b= "+this.b+"\n c: "+this.c; 
