@@ -18,6 +18,7 @@ public class TrianguloRectangulo {
 		
 		if (a<=0 || b<=0) {
 			//Aqui tiene que lanzar el IllegalArgumentException
+			System.out.println("IllegalArgumentException");
 		}
 		return a;
 		
