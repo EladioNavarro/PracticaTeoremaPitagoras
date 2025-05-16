@@ -8,16 +8,16 @@ public class TrianguloRectangulo {
 	
 	//Metodo constructor
 	
-	public TrianguloRectangulo(int a, int b) {
+	public TrianguloRectangulo() {
 		
-		this.a= a;
-		this.b=b;
+		this.a= 1;
+		this.b=1;
 	}
 	
-	public int triangulo(int a, int b) {
+	public int triangulo2(int a, int b) {
 		
 		if (a<=0 || b<=0) {
-			//Aqui tiene que lanzar el IllegalArgumentException
+			/*Aqui tiene que lanzar el IllegalArgumentException*/
 			System.out.println("IllegalArgumentException");
 		}
 		return a;
